@@ -1,0 +1,80 @@
+.header-part {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.money {
+    color: violet;
+}
+
+.money-type {
+    display: flex;
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.deposite-box {
+    background-color: rgb(124, 240, 124);
+    padding: 10px;
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.withdraw-box {
+    background-color: rgb(233, 27, 130);
+    padding: 10px;
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.balance-box {
+    background-color: tomato;
+    padding: 10px;
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.deposite-withdraw {
+    display: flex;
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.money-deposite {
+    background-color: rgb(196, 76, 196);
+    padding: 10px;
+    margin-right: 20px;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.money-withdraw {
+    background-color: violet;
+    padding: 15px;
+    margin-right: 20px;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.btn-deposite {
+    color: white;
+    background-color: rgb(13, 13, 63);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+}
+
+.btn-withdraw {
+    color: white;
+    background-color: rgb(13, 13, 63);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+}

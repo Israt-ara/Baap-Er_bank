@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Inside</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header-part">
+        <h1 class="getting-part">Lets get some <span class="money">money</span> </h1>
+    </header>
+
+    <section>
+        <div class="money-type">
+            <div class="deposite-box">
+                <h3>Deposite</h3>
+                <h1>$ <span id="deposite-total">00</span> </h1>
+            </div>
+            <div class="withdraw-box">
+                <h3>Withdraw</h3>
+                <h1>$<span id="withdraw-total">00</span></h1>
+            </div>
+            <div class="balance-box">
+                <h3>Balance</h3>
+                <h1>$ <span id="balance-total">1240</span></h1>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="deposite-withdraw">
+            <div class="money-deposite">
+                <h3>Please Deposite</h3>
+                <input type="text" placeholder="Amount" id="deposite-field">
+                <br>
+                <button class="btn-deposite" id="deposite-btn">Deposite</button>
+            </div>
+            <div class="money-withdraw">
+                <h3>Please Withdraw</h3>
+                <input type="text" placeholder="Amount" id="withdraw-field">
+                <br>
+                <button class="btn-withdraw" id="withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/deposite.js"></script>
+
+    <script src="js/withdraw.js"></script>
+
+</body>
+
+</html>

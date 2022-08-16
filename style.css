@@ -1,0 +1,37 @@
+.header-part {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.baap-bank {
+    color: violet;
+}
+
+.login-part {
+    margin-left: 500px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(205, 205, 224);
+    height: 200px;
+    width: 30%;
+
+}
+
+.login {
+    font-size: x-large;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.btn-submitt {
+    padding: 10px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-submitt:hover {
+    background-color: blue;
+}
